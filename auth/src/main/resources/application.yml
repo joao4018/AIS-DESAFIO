@@ -23,10 +23,17 @@ spring:
   jmx:
     enabled: false
   datasource:
-    url: jdbc:mysql://localhost:3306/movie?allowPublicKeyRetrieval=true&sslMode=DISABLED&useTimezone=true&serverTimezone=UTC
-    username: root
-    password: root
+    url: jdbc:h2:file:/C:/workspace/bd/banco.db;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      path: /h2
+      enabled: true
+
 
 jwt:
   config:
     type: signed
+

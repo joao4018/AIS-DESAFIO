@@ -12,7 +12,7 @@
     <artifactId>discovery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>discovery</name>
-    <description>DevDojo's Service Discovery</description>
+    <description>Discovery</description>
 
     <properties>
         <java.version>11</java.version>
