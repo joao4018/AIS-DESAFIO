@@ -38,12 +38,10 @@ public class BaseSwaggerConfig {
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Titulo do wagger")
-                .description("descricao")
+                .title("Movie-API")
+                .description("descricao a ser desenvolvida")
                 .version("1.0")
                 .contact(new Contact("joao4018", "", "gmail.com"))
-                .license("blau")
-                .licenseUrl("blabla")
                 .build();
     }
 }
